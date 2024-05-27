@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Scrolling Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Logo</h1>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+      </nav>
+    </header>
+    <section class="home">
+      <h1>Parallax</h1>
+      <img src="./stars.png" alt="stars" class="stars" />
+      <img src="./moon.png" alt="moon" class="moon" />
+      <img src="./mountain.png" alt="mountain" class="mountain" />
+      <img src="./trees.png" alt="trees" class="trees" />
+      <img src="./layer.png" alt="layer" class="layer" />
+      <dotlottie-player
+        src="scroll-animation.json"
+        background="transparent"
+        speed="1"
+        style="width: 50px; height: 50px"
+        direction="1"
+        playMode="normal"
+        loop
+        autoplay
+        class="lottie"
+      ></dotlottie-player>
+    </section>
+    <section class="about">
+      <h1>About</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod
+        mi vel metus maximus, nec pharetra felis efficitur. Nullam commodo
+        ultricies velit a vulputate. Integer aliquam leo ultricies ex malesuada
+        tempus. Cras a orci sapien. Nam vehicula dolor a tristique placerat.
+        Nunc varius rutrum nisl. Quisque interdum libero quis dolor varius
+        faucibus. Orci varius natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Morbi est massa, maximus in mi id, interdum
+        commodo nibh. Etiam eleifend nec ligula et semper. Aenean dictum sed
+        velit id rutrum. Donec pharetra dolor ac neque sodales, nec interdum
+        nulla scelerisque. Cras aliquam libero dui, sed interdum mi euismod
+        convallis. Curabitur lacinia, arcu id tempus dignissim, turpis ex semper
+        nisi, in tempus risus ipsum vitae felis. Donec viverra vehicula ante
+        vitae fringilla. Morbi odio erat, molestie nec congue eget, hendrerit
+        quis diam.
+      </p>
+      <p>
+        Praesent ac ipsum maximus, tempus nunc ut, porta diam. Duis velit diam,
+        volutpat quis lobortis non, placerat id felis. Sed pharetra quis dolor
+        non porta. Quisque varius enim sit amet interdum scelerisque. Etiam
+        dictum commodo iaculis. Ut condimentum viverra elit sed pulvinar.
+        Suspendisse quis purus risus. Pellentesque vehicula mi nulla, a lacinia
+        nunc aliquam nec. Integer sed sagittis lorem. Quisque vel urna feugiat
+        justo vehicula sagittis. Fusce leo ante, ornare sed consectetur non,
+        vulputate sit amet nisl. Ut pharetra nisi porta pulvinar venenatis.
+      </p>
+      <p>
+        Donec vulputate, nunc sit amet cursus lobortis, tellus neque imperdiet
+        eros, ac pulvinar nisi diam sit amet lorem. Aenean maximus sed magna sed
+        congue. Etiam quis iaculis dolor, vel lacinia tortor. Morbi molestie
+        accumsan leo, et accumsan lectus aliquet id. Maecenas ornare tortor at
+        ipsum molestie rutrum. Donec aliquam ullamcorper urna quis finibus. Sed
+        ut venenatis risus. Ut viverra, dui interdum semper vehicula, nisl augue
+        elementum sem, et venenatis sem tortor ut nibh. Sed vitae tristique
+        neque, ut consectetur diam. In vel gravida est. Praesent euismod eget
+        tortor sed convallis. Donec sed sem sit amet augue finibus sollicitudin
+        ac sed nisi. In consectetur luctus felis eget cursus. Quisque imperdiet
+        consectetur tortor quis vehicula. Phasellus sit amet tortor nec nunc
+        pulvinar eleifend ut porta nisl. Duis ut sapien sapien.
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
